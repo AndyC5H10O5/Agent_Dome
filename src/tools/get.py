@@ -1,6 +1,3 @@
-Chinese_8word="甲申丙子庚辰甲申"
-
-
-def get_Chinese_8word(date: str, hour: str) -> str:
+def get_Chinese_8word() -> str:
     """获得生辰八字"""
-    return f"生辰八字是 {Chinese_8word}"
+    return "甲申 丙子 庚辰 甲申"
